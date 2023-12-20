@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: 0.
+ * print_alphabet - Print the alphabet in lowercase
+ * then a new line
  */
 void print_alphabet(void)
 {
 	int i = 0;
 	char letter;
+
 	while (i < 1)
 	{
 		letter = 'a';
