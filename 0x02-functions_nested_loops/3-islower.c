@@ -10,16 +10,17 @@
 int _islower(int c)
 {
 	char i = 'a';
+	int n = 0;
 
 	while (i <= 'z')
 	{
 		if (c == i)
 		{
-			return (1);
+			n += 1;
+			break;
 		}
-		else
-		{
-			return (0);
-		}
+		n += 0;
+		i++;
 	}
+	return (n);
 }
