@@ -10,14 +10,16 @@
 int _isupper(int c)
 {
 	int x = 0;
+	char i = 'A';
 
-	for (char i = 'A'; i <= 'Z'; i++)
+	while (i <= 'Z')
 	{
 		if (c == i)
 		{
 			x += 1;
 			break;
 		}
+		i++;
 	}
 	return (x);
 }
