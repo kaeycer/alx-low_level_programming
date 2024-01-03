@@ -33,7 +33,7 @@ void puts_half(char *str)
 	else {
 		while (n < i)
 		{
-			if (n >= ((i - 1) / 2))
+			if (n > ((i - 1) / 2))
 			{
 				_putchar(str[n]);
 			}
