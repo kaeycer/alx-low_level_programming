@@ -30,7 +30,8 @@ void puts_half(char *str)
 		}
 		_putchar('\n');
 	}
-	else {
+	else
+	{
 		while (n < i)
 		{
 			if (n > ((i - 1) / 2))
