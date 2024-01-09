@@ -21,7 +21,7 @@ void print_diagsums(int *a, int size)
 	i = size - 1;
 	while (i >= 0)
 	{
-		two += s[x * size + (size - x - 1)];
+		two += s[i * size + (size - i - 1)];
 		i--;
 	}
 	printf("%d, %d\n", one, two);
