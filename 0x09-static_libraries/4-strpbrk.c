@@ -8,7 +8,7 @@
  *
  * Return: pointer to s or "NULL"
  */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, j;
 

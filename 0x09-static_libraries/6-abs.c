@@ -19,7 +19,7 @@ int _abs(int n)
 	}
 	else
 	{
-		x *= -1;
+		n *= -1;
 	}
 	return (n);
 }
