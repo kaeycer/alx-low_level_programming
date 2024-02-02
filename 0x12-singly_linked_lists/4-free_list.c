@@ -9,10 +9,9 @@
 void free_list(list_t *head)
 {
 	list_t *node;
-	while (node != NULL)
+	while ((node = head) != NULL)
 	{
-		node = head;
-		head = node->next;
+		head = head->next;
 		free(node->str);
 		free(node);
 	}
