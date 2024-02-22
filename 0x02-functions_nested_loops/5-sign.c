@@ -2,29 +2,26 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of the number
- * @n: integer as a parameter
+ * print_sign - prints the sign of a number
+ * @n: integer val
  *
- * Return: 1 if bigger than zero, 0 if equals zero, -1 if less than zero
+ * Return: 1 if +, 0 if 0, -1 if otherwise
  */
 int print_sign(int n)
 {
-	int n = 0;
-
-	if (c > 0)
+	if (n > 0)
 	{
-		n += 1;
-		printf("+");
+		_putchar('+');
+		return (1);
 	}
-	else if (c == 0)
+	else if (n == 0)
 	{
-		n += 0;
-		_putchar('0);
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		n -= 1;
-		printf("-");
+		_putchar('-');
+		return (-1);
 	}
-	return (n);
 }
